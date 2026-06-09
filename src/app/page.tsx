@@ -129,26 +129,26 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
 
-            {/* OFFRE 1: CYBERWIZE */}
-            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="bg-white p-10 border border-slate-200 hover:border-[#f0822a]/50 rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col group">
-              <div className="w-14 h-14 bg-[#f0822a]/10 border border-[#f0822a]/20 rounded flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                <Shield className="w-6 h-6 text-[#f0822a]" />
+            {/* OFFRE 1: CYBERWIZE (Thème Bleu) */}
+            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="bg-white p-10 border border-slate-200 hover:border-[#2563eb]/50 rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col group">
+              <div className="w-14 h-14 bg-[#2563eb]/10 border border-[#2563eb]/20 rounded flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                <Shield className="w-6 h-6 text-[#2563eb]" />
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">Cyberwize</h3>
-              <div className="inline-block px-3 py-1 bg-[#f0822a]/10 text-[#f0822a] text-xs font-bold uppercase tracking-wider rounded mb-8 border border-[#f0822a]/20">
+              <div className="inline-block px-3 py-1 bg-[#2563eb]/10 text-[#2563eb] text-xs font-bold uppercase tracking-wider rounded mb-8 border border-[#2563eb]/20">
                 Diagnostic offert (30 jrs)
               </div>
 
               <ul className="space-y-4 mb-12 flex-1">
                 {["Analyse de votre exposition aux risques", "Identification des vulnérabilités", "Recommandations d'amélioration"].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-slate-600">
-                    <Check className="w-5 h-5 text-[#f0822a] shrink-0" />
+                    <Check className="w-5 h-5 text-[#f0822a] shrink-0" /> {/* Touche d'orange Agilly */}
                     <span>{item}</span>
                   </li>
                 ))}
               </ul>
 
-              <a href="#contact" className="w-full py-4 text-center border-2 border-slate-200 hover:border-[#f0822a] hover:bg-[#f0822a] hover:text-white text-slate-900 font-bold rounded transition-colors">
+              <a href="#contact" className="w-full py-4 text-center border-2 border-slate-200 hover:border-[#2563eb] hover:bg-[#2563eb] hover:text-white text-slate-900 font-bold rounded transition-colors">
                 Je profite de l'offre
               </a>
             </motion.div>
@@ -180,26 +180,26 @@ export default function Home() {
               </a>
             </motion.div>
 
-            {/* OFFRE 3: AMBRA CLOUD */}
-            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="bg-white p-10 border border-slate-200 hover:border-[#f0822a]/50 rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col group">
-              <div className="w-14 h-14 bg-[#f0822a]/10 border border-[#f0822a]/20 rounded flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                <Cloud className="w-6 h-6 text-[#f0822a]" />
+            {/* OFFRE 3: AMBRA CLOUD (Thème Rouge Ambré) */}
+            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="bg-white p-10 border border-slate-200 hover:border-[#c03c0c]/50 rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col group">
+              <div className="w-14 h-14 bg-[#c03c0c]/10 border border-[#c03c0c]/20 rounded flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                <Cloud className="w-6 h-6 text-[#c03c0c]" />
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">Ambra Cloud</h3>
-              <div className="inline-block px-3 py-1 bg-[#f0822a]/10 text-[#f0822a] text-xs font-bold uppercase tracking-wider rounded mb-8 border border-[#f0822a]/20">
+              <div className="inline-block px-3 py-1 bg-[#c03c0c]/10 text-[#c03c0c] text-xs font-bold uppercase tracking-wider rounded mb-8 border border-[#c03c0c]/20">
                 15 jours d'hébergement
               </div>
 
               <ul className="space-y-4 mb-12 flex-1">
                 {["Hébergement local et sécurisé", "Sauvegarde des données", "Disponibilité optimale"].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-slate-600">
-                    <Check className="w-5 h-5 text-[#f0822a] shrink-0" />
+                    <Check className="w-5 h-5 text-[#f0822a] shrink-0" /> {/* Touche d'orange Agilly */}
                     <span>{item}</span>
                   </li>
                 ))}
               </ul>
 
-              <a href="#contact" className="w-full py-4 text-center border-2 border-slate-200 hover:border-[#f0822a] hover:bg-[#f0822a] hover:text-white text-slate-900 font-bold rounded transition-colors">
+              <a href="#contact" className="w-full py-4 text-center border-2 border-slate-200 hover:border-[#c03c0c] hover:bg-[#c03c0c] hover:text-white text-slate-900 font-bold rounded transition-colors">
                 Découvrir le Cloud
               </a>
             </motion.div>
